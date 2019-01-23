@@ -1,0 +1,43 @@
+.headerwrap {
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid grey;
+  .head_logo{
+    padding: 10px 20px;
+    height: 50px;
+    display: flex;
+    .logo {
+      img{
+        height: 40px;
+      }
+    }
+    span {
+      display: inline-block;
+      color: grey;
+      margin-left: 20px;
+      font-size: 25px;
+    }
+  }
+  .head_navbar {
+    width: 100%;
+    height: 50px;
+    ul {
+      list-style: none;
+      margin-top: 15px;
+      li {
+        display: inline-block;
+        margin-left: 20px;
+        a {
+          text-decoration: none;
+          font-size: 20px;
+          color: grey;
+        }
+        & :hover {
+          border-bottom: 2px solid blue;
+          color: blue;;
+          padding: 3px;
+        }
+      }
+    }
+  }
+}
